@@ -1,0 +1,179 @@
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo {
+    width: 720px; 
+    height: 68px;
+}
+
+/*  */
+
+
+/*  */
+
+
+
+
+.bottomtext {
+    text-align: center;  
+}
+
+/* .form-wrapper {
+    background: gray;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+} */
+
+.nostyle {
+    text-decoration: none;
+}
+
+
+.headercss {
+    padding-top: 15px;
+    padding-left: 0px;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    background-color: white;
+}
+
+p {
+    font-size:x-large;
+    font-style: italic;
+}
+
+.LINKS {
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.banner {
+    padding-top: -10px;
+    padding-bottom: 45px;
+}
+
+
+.form-wrapper {
+    display: block;
+    text-align: center;
+    text-decoration: solid;
+    font-size: large;
+    color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(13, 13, 236, 0.719);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* .KTPortraits {
+    height: 1200px;
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+} */
+
+.KTPortraits {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+.youtube {
+    display: flexbox;
+    justify-content: space-around;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.spotify2 {
+    display: flex;
+    justify-content: center;
+}
+
+.spotify {
+    margin: 0 90px ;
+}
+
+.paddingfoot {
+    padding-bottom: 48px;
+    padding-top: 35px;
+
+}
+
+.paddingshort {
+    padding-bottom: 58px;
+}
+
+.bottomspace {
+    padding-top: 50px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.bottom2 {
+    padding-bottom: 20px;
+    font-size: larger;
+}
+
+.ourmusic {
+    padding-top: 48px;
+    padding-bottom: 40px;
+}
+
+
+.about-us {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about-us1 {
+    margin-top: 10px;
+    margin-bottom: 45px;
+    font-size: 20px;
+}
+
+.imgspace {
+    margin-right: 8px;  
+}
+
+
+.spacingabout {
+    padding-top: 70px;
+}
+
+.paddingface {
+    padding-bottom: 40px;
+}
+
+.paddingbottom {
+    padding-bottom: 60px;
+}
+
+.form-wrapper:hover {
+    animation: changeColor;
+    background-color: rgb(116, 19, 189);
+    transition: 1s;
+}
+
+
