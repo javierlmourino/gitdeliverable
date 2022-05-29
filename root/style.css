@@ -193,3 +193,7 @@ li{
 .signup {
     animation: wiggle 2s linear infinite;
 }
+
+.KTPortraits:hover {
+    transform: scale(1.1);
+}
