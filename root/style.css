@@ -190,3 +190,6 @@ li{
 }
 
 
+.signup {
+    animation: wiggle 2s linear infinite;
+}
