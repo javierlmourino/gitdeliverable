@@ -186,7 +186,7 @@ li{
 .form-wrapper:hover {
     animation: changeColor;
     background-color: rgb(116, 19, 189);
-    transition: 1s ease-in;
+    transition: 1s ease-in-out;
 }
 
 
