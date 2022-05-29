@@ -13,7 +13,11 @@ body {
 
 /*  */
 
-
+h1:hover{
+    color: rgba(27, 20, 159, 0.759);
+    animation: changecolor;
+    transition: 0.5s ease-in-out;
+}
 
 
 .bottomtext {
@@ -44,6 +48,7 @@ body {
     background-color: white;
 }
 
+
 p {
     font-size:x-large;
     font-style: italic;
@@ -56,6 +61,14 @@ p {
     padding-bottom: 20px;
     padding-left: 0px;
 }
+
+.LINKS:hover {
+    text-decoration: double;
+    animation-duration: 0.5s;
+}
+
+
+
 
 li{
     list-style-type: none;
@@ -173,7 +186,11 @@ li{
 .form-wrapper:hover {
     animation: changeColor;
     background-color: rgb(116, 19, 189);
-    transition: 1s;
+    transition: 1s ease-in;
 }
 
 
+.topanimation{
+    animation: infinite;
+    scroll-behavior: smooth;
+}
