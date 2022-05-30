@@ -10,6 +10,19 @@ body {
 
 /*  */
 
+.navbar-nav{
+    font-size: xx-large;
+}
+
+.collapse.navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.nav-item{
+    padding-left: 85px;
+}
 
 /*  */
 
@@ -33,19 +46,13 @@ h1:hover{
 
 } */
 
-.nostyle {
-    text-decoration: none;
-}
 
 
 .headercss {
-    padding-top: 15px;
-    padding-left: 0px;
     text-decoration: none;
     position: sticky;
     top: 0;
     bottom: 0;
-    background-color: white;
 }
 
 

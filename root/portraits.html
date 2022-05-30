@@ -5,22 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KarlTaylorPhotography</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="headercss">
-        <section>
-                        <img src="multimedia/pictures/logo.png" alt="Client logo" class="logo">                   
-                <nav> 
-                    <ul class="LINKS">
-                            <li><a href="portraits.html" class="nostyle">Portraits</a></li>
-                            <li><a href="products.html" class="nostyle">Products</a></li>
-                            <li><a href="fashion.html" class="nostyle">Fashion</a></li>
-                            <li><a href="business.html" class="nostyle">Business</a></li>
-                            <li><a href="#aboutus" class="nostyle">About-us</a></li>
-                    </ul>
-                </nav> 
-        </section> 
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="multimedia/pictures/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portraits.html">Portraits</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="fashion.html">Fashion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="business.html">Business</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aboutlink">About-us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
     </header>
     
     <div>
@@ -37,7 +57,7 @@
 
 
             <section id="aboutus" class="spacingabout">
-                <div class="about-us1">
+                <div class="about-us1" id="aboutlink">
                     <h2>About us</h2>
                             <div class="bottom2">
 
@@ -80,6 +100,8 @@
                         </div>
                     </section>
                 </footer>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
                     
     </body>
     </html>
